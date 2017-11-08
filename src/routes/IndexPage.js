@@ -1,15 +1,11 @@
 import React from 'react';
 import { connect } from 'dva';
-import MainLayout  from '../components/MainLayout/MainLayout';
-import styles from './IndexPage.css';
+import MainLayout from '../components/MainLayout/MainLayout';
 
 function IndexPage() {
   return (
-     <MainLayout></MainLayout>
+    <MainLayout />
   );
 }
-
-IndexPage.propTypes = {
-};
 
 export default connect()(IndexPage);

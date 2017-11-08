@@ -1,5 +1,14 @@
 {
   "private": true,
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": "off"
+    }
+  },
   "scripts": {
     "start": "roadhog server",
     "build": "roadhog build",

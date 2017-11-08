@@ -2,7 +2,10 @@
   "parser": "babel-eslint",
   "extends": "airbnb",
   "rules": {
+    "linebreak-style": "off",
     "no-console": "off",
+    "indent": [ "off"],
+    "quotes": [ "off", "single" ],
     "arrow-body-style": [0],
     "consistent-return": [0],
     "generator-star-spacing": [0],
