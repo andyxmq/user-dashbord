@@ -4,14 +4,14 @@ import IndexPage from './routes/IndexPage';
 import Users from './routes/Users';
 
 function RouterConfig({ history }) {
-  return (
-    <Router history={history}>
-      <Switch>
-        <Route path="/" exact component={IndexPage} />
-        <Route path="/users" component={Users} />
-      </Switch>
-    </Router>
-  );
+    return (
+      <Router history={history}>
+        <Switch>
+          <Route path="/" exact component={IndexPage} />
+          <Route path="/users" component={Users} />
+        </Switch>
+      </Router>
+    );
 }
 
 export default RouterConfig;

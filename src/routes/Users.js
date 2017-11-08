@@ -4,16 +4,16 @@ import { Button } from 'antd';
 import styles from './Users.css';
 
 function Users() {
-  return (
-    <div className={styles.normal}>
-      Route Component: Users
-      <Button>aaa</Button>
-    </div>
-  );
+    return (
+      <div className={styles.normal}>
+          Route Component: Users
+          <Button>aaa</Button>
+      </div>
+    );
 }
 
 function mapStateToProps() {
-  return {};
+    return {};
 }
 
 export default connect(mapStateToProps)(Users);

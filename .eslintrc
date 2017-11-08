@@ -4,7 +4,10 @@
   "rules": {
     "linebreak-style": "off",
     "no-console": "off",
-    "indent": [ "off"],
+    "indent": [ 2, 4, {
+      "SwitchCase": 1
+    }],
+    "no-debugger": 2,
     "quotes": [ "off", "single" ],
     "arrow-body-style": [0],
     "consistent-return": [0],

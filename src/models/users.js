@@ -1,11 +1,11 @@
 
 export default {
-  namespace: 'users',
-  state: {
-    list: [],
-    total: null,
-  },
-  reducers: {},
-  effects: {},
-  subscriptions: {},
+    namespace: 'users',
+    state: {
+        list: [],
+        total: null,
+    },
+    reducers: {},
+    effects: {},
+    subscriptions: {},
 };
